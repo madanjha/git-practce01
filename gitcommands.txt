@@ -1,0 +1,144 @@
+﻿git init  
+# Initialize a new Git repository  
+# Syntax: git init  
+
+
+git clone <repo_url>  
+# Copy an existing repository into a new directory  
+# Syntax: git clone https://github.com/user/repo.git  
+
+
+git status  
+# Show changes in working directory and staging area  
+# Syntax: git status  
+
+
+git add <file>  
+# Add files to the staging area  
+# Syntax: git add file.txt | git add .  
+
+
+git commit -m "message"  
+# Save changes to repository with a message  
+# Syntax: git commit -m "Your commit message"  
+
+
+git log  
+# View commit history  
+# Syntax: git log  
+
+
+git diff  
+# Show changes between commits or working directory  
+# Syntax: git diff | git diff <commit1> <commit2>  
+
+
+git branch  
+# List, create, or delete branches  
+# Syntax: git branch | git branch new-branch | git branch -d branch  
+
+
+git checkout <branch>  
+# Switch to another branch or restore files  
+# Syntax: git checkout branch-name  
+
+
+git switch <branch>  
+# Switch branches (modern alternative)  
+# Syntax: git switch branch-name  
+
+
+git merge <branch>  
+# Combine changes from one branch into another  
+# Syntax: git merge branch-name  
+
+
+git pull  
+# Fetch and merge changes from remote repository  
+# Syntax: git pull origin main  
+
+
+git push  
+# Upload local commits to remote repository  
+# Syntax: git push origin main  
+
+
+git fetch  
+# Download commits and refs from remote without merging  
+# Syntax: git fetch origin  
+
+
+git remote -v  
+# Manage remote repositories  
+# Syntax: git remote add origin <url> | git remote -v  
+
+
+git reset <commit>  
+# Undo commits or changes by moving HEAD  
+# Syntax: git reset --soft <commit> | git reset --hard <commit>  
+
+
+git revert <commit>  
+# Create a new commit that undoes a previous commit  
+# Syntax: git revert <commit>  
+
+
+git stash  
+# Temporarily save uncommitted changes  
+# Syntax: git stash | git stash pop  
+
+
+git tag <name>  
+# Create or list tags for commits  
+# Syntax: git tag v1.0 | git tag  
+
+
+git show <commit>  
+# Show details about a commit or object  
+# Syntax: git show <commit>  
+
+
+git blame <file>  
+# Show who changed each line in a file  
+# Syntax: git blame file.txt  
+
+
+git config  
+# Configure Git settings  
+# Syntax: git config --global user.name "Name"  
+# Syntax: git config --global user.email "email@example.com"  
+
+
+git rm <file>  
+# Remove files from working directory and staging  
+# Syntax: git rm file.txt  
+
+
+git mv <old> <new>  
+# Move or rename files  
+# Syntax: git mv old.txt new.txt  
+
+
+git reflog  
+# Show history of HEAD changes (local reference log)  
+# Syntax: git reflog  
+
+
+git cherry-pick <commit>  
+# Apply a specific commit from one branch to another  
+# Syntax: git cherry-pick <commit>  
+
+
+git rebase <branch>  
+# Reapply commits on top of another branch  
+# Syntax: git rebase branch-name  
+
+
+git bisect  
+# Find the commit that introduced a bug via binary search  
+# Syntax: git bisect start  
+
+
+git clean -f  
+# Remove untracked files from working directory  
+# Syntax: git clean -f | git clean -fd

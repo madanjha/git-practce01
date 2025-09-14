@@ -1,0 +1,745 @@
+madan@Lenovo-PC MINGW64 ~
+$ git init
+Initialized empty Git repository in C:/Users/madan/.git/
+
+madan@Lenovo-PC MINGW64 ~ (master)
+$ dir
+3D\ Objects
+AppData
+Application\ Data
+Contacts
+Cookies
+Covid19.ipynb
+DataVisualliation
+Documents
+Downloads
+EPGA-practices
+Favorites
+HackerRank_test.ipynb
+IntelGraphicsProfiles
+Links
+Local\ Settings
+Microsoft
+Music
+My\ Documents
+NTUSER.DAT
+NTUSER.DAT{c28ced5f-a084-11eb-82e3-be62c97d2043}.TM.blf
+NTUSER.DAT{c28ced5f-a084-11eb-82e3-be62c97d2043}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{c28ced5f-a084-11eb-82e3-be62c97d2043}.TMContainer00000000000000000002.regtrans-ms
+NetHood
+Numpy\ (1).ipynb
+Numpy.ipynb
+OOPSAsingement.ipynb
+OneDrive
+OneDrive.old
+Pandas\ Practical
+Postman
+PrintHood
+Recent
+Roaming
+Saved\ Games
+Searches
+SendTo
+Start\ Menu
+StatsProbality
+Templates
+Tracing
+Untitled.ipynb
+Untitled1.ipynb
+Untitled10.ipynb
+Untitled11.ipynb
+Untitled2.ipynb
+Untitled21.ipynb
+Untitled3.ipynb
+Untitled4.ipynb
+Untitled5.ipynb
+Untitled6.ipynb
+Untitled7.ipynb
+Untitled8.ipynb
+Untitled9.ipynb
+Videos
+VirtualBox\ VMs
+WebstormProjects
+anaconda3
+covid_19_clean_complete.csv
+default-soapui-workspace.xml
+git
+hob
+hsperfdata_madan
+my-app
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+ntuser.ini
+package-lock.json
+soapui-settings.xml
+untitled.py
+untitled1.py
+
+madan@Lenovo-PC MINGW64 ~ (master)
+$ pwd
+/c/Users/madan
+
+madan@Lenovo-PC MINGW64 ~ (master)
+$ cd OneDrive
+
+madan@Lenovo-PC MINGW64 ~/OneDrive (master)
+$ cd Desktop
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop (master)
+$ cd gittest
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (main)
+$ git add Code.txt Output.txt
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (main)
+$ git status
+On branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (main)
+$ git commit -m "Fist commit"
+On branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (main)
+$ git log
+commit 3b4c4dfbb62e3151102f8241f1d171f5240093ae (HEAD -> main)
+Author: Madan Jha <jha.mk83@gmail.com>
+Date:   Sun Aug 31 10:57:04 2025 +0530
+
+    lst commit
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (main)
+$ git remote add origin https://github.com/madanjha/openshiftlearning.git
+error: remote origin already exists.
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (main)
+$ $ git remote -v
+bash: $: command not found
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (main)
+$ git remote -v
+origin  $ git clone https://github.com/madanjha/git-practce01.git (fetch)
+origin  $ git clone https://github.com/madanjha/git-practce01.git (push)
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (main)
+$ git remote remove origin $ git clone https://github.com/madanjha/git-practce01.git
+usage: git remote remove <name>
+
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (main)
+$ $ git clone https://github.com/madanjha/git-practce01.git^C
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (main)
+$ git remote remove origin "$ git clone https://github.com/madanjha/git-practce01.git"
+usage: git remote remove <name>
+
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (main)
+$ git remote remove origin "https://github.com/madanjha/git-practce01.git"      usage: git remote remove <name>
+
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (main)
+$ git remote remove origin "$ git clone https://github.com/madanjha/git-practce01.git"
+usage: git remote remove <name>
+
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (main)
+$ git remote -v
+origin  $ git clone https://github.com/madanjha/git-practce01.git (fetch)
+origin  $ git clone https://github.com/madanjha/git-practce01.git (push)
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (main)
+$ git remote remove origin
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (main)
+$ git remote remove origin
+error: No such remote: 'origin'
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (main)
+$ git remote -v
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (main)
+$ git remote add origin https://github.com/madanjha/openshiftlearning.git
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (main)
+$ git status
+On branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (main)
+$ git push -u origin main
+info: please complete authentication in your browser...
+To https://github.com/madanjha/openshiftlearning.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/madanjha/openshiftlearnin
+g.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (main)
+$ git remote -v
+origin  https://github.com/madanjha/openshiftlearning.git (fetch)
+origin  https://github.com/madanjha/openshiftlearning.git (push)
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (main)
+$ git remove -v origin
+git: 'remove' is not a git command. See 'git --help'.
+
+The most similar command is
+        remote
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (main)
+$ git remote -v
+origin  https://github.com/madanjha/openshiftlearning.git (fetch)
+origin  https://github.com/madanjha/openshiftlearning.git (push)
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (main)
+$ git remote remove origin
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (main)
+$ git remote add origin https://github.com/madanjha/git-practce01.git
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (main)
+$ git remote -v
+origin  https://github.com/madanjha/git-practce01.git (fetch)
+origin  https://github.com/madanjha/git-practce01.git (push)
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (main)
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 220 bytes | 73.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/madanjha/git-practce01.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (main)
+$ touch feature1.txt feature2.txt
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (main)
+$ git add feature1.txt feature
+feature1.txt  feature2.txt
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (main)
+$ git add feature1.txt feature
+feature1.txt  feature2.txt
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (main)
+$ git add feature1.txt feature2.txt
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   feature1.txt
+        new file:   feature2.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Log.txt
+
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (main)
+$ git commit  -m"second commit"
+[main d9b4305] second commit
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 feature1.txt
+ create mode 100644 feature2.txt
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (main)
+$ git log
+commit d9b4305f2764302bdf781289272e124d17985448 (HEAD -> main)
+Author: Madan Jha <jha.mk83@gmail.com>
+Date:   Sun Aug 31 12:20:09 2025 +0530
+
+    second commit
+
+commit 3b4c4dfbb62e3151102f8241f1d171f5240093ae (origin/main)
+Author: Madan Jha <jha.mk83@gmail.com>
+Date:   Sun Aug 31 10:57:04 2025 +0530
+
+    lst commit
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (main)
+$ git branch develop
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (main)
+$ git branch feature1.txt
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (main)
+$ git branch feature2.txt
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (main)
+$ git branch
+  develop
+  feature1.txt
+  feature2.txt
+* main
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (main)
+$ git checkout develop
+Switched to branch 'develop'
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (develop)
+$ touch develop.txt
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (develop)
+$ git stash push -m"stashed develop.txt"
+No local changes to save
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (develop)
+$ git checkout feature1
+error: pathspec 'feature1' did not match any file(s) known to git
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (develop)
+$ git checkout feature1.txt
+Switched to branch 'feature1.txt'
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (feature1.txt)
+$ touch new.txt
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (feature1.txt)
+$ git add new.txt
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (feature1.txt)
+$ git commit -m"added new.txt in feature1.txt"
+[feature1.txt 7108413] added new.txt in feature1.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 new.txt
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (feature1.txt)
+$ git log
+commit 710841325d487fc9aa95b69a892d00d69a85da32 (HEAD -> feature1.txt)
+Author: Madan Jha <jha.mk83@gmail.com>
+Date:   Sun Aug 31 12:25:31 2025 +0530
+
+    added new.txt in feature1.txt
+
+commit d9b4305f2764302bdf781289272e124d17985448 (main, feature2.txt, develop)
+Author: Madan Jha <jha.mk83@gmail.com>
+Date:   Sun Aug 31 12:20:09 2025 +0530
+
+    second commit
+
+commit 3b4c4dfbb62e3151102f8241f1d171f5240093ae (origin/main)
+Author: Madan Jha <jha.mk83@gmail.com>
+Date:   Sun Aug 31 10:57:04 2025 +0530
+
+    lst commit
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (feature1.txt)
+$ git checkout develop
+Switched to branch 'develop'
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (develop)
+$ git stash pop
+No stash entries found.
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (develop)
+$ git status
+On branch develop
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Log.txt
+        develop.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (develop)
+$ git add develop.txt
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (develop)
+$ git commit -m"added develop.txt to develop"
+[develop 9a9f740] added develop.txt to develop
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 develop.txt
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (develop)
+$ git log
+commit 9a9f74049bb4785f0af6658a3efe1536428a0858 (HEAD -> develop)
+Author: Madan Jha <jha.mk83@gmail.com>
+Date:   Sun Aug 31 12:27:39 2025 +0530
+
+    added develop.txt to develop
+
+commit d9b4305f2764302bdf781289272e124d17985448 (main, feature2.txt)
+Author: Madan Jha <jha.mk83@gmail.com>
+Date:   Sun Aug 31 12:20:09 2025 +0530
+
+    second commit
+
+commit 3b4c4dfbb62e3151102f8241f1d171f5240093ae (origin/main)
+Author: Madan Jha <jha.mk83@gmail.com>
+Date:   Sun Aug 31 10:57:04 2025 +0530
+
+    lst commit
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (develop)
+$ history
+    1  pwd
+    2  cd C
+    3  cd C:
+    4  cd Desktop
+    5  cd C:\Users\madan\OneDrive\Desktop
+    6  cd C:\Users\madan
+    7  cd User
+    8  dir
+    9  cd Users
+   10  dir
+   11  cd madan
+   12  dir
+   13  cd OneDrive
+   14  dir
+   15  cd Desktop
+   16  pwd
+   17  mkdir Gittest
+   18  cd Gittest/
+   19  touch Code.txt
+   20  touch Log.txt
+   21  touch Output.txt
+   22  git init
+   23  git add Code.txt Output.txt
+   24  git status
+   25  git commit -m"lst commit"
+   26  git remote add origin "$ git clone https://github.com/madanjha/git-practce01.git"
+   27  git push origin master
+   28  git push origin master
+   29  git push -u origin main
+   30  git push -u origin master
+   31  git remote add origin git@github.com:madanjha/git-practce01.git
+   32  git branch -M master
+   33  git push -u origin master
+   34  git config --global madanjha
+   35  git config --global madanjha "Madan Jha"
+   36  git remote add origin https://github.com/madanjha/git-practce01.git
+   37  show status
+   38  git status
+   39  git remote remove "$ git clone https://github.com/madanjha/git-practce01.git"
+   40  git remote remove "https://github.com/madanjha/git-practce01.git"
+   41  git remote remove https://github.com/madanjha/git-practce01.git
+   42  git remote add origin https://github.com/madanjha/git-practce01.git
+   43  exit
+   44  git config --global madanjha
+   45  git config --global --edit
+   46  pwd
+   47  cd Gittest
+   48  pwd
+   49  cd OneDrive/Desktop
+   50  cd gittest/
+   51  dir
+   52  git add Code.txt Output.txt
+   53  git status
+   54  git init
+   55  git remote add origin https://github.com/madanjha/git-practce01.git
+   56  git remote add origin https://github.com/madanjha/git-practce01.git
+   57  git branch -M main
+   58  git push -u origin main
+   59  git clone
+   60  git push -u origin main
+   61  git clone git@github.com:madanjha/git-practce01.git
+   62  git push -u origin main
+   63  git push origin main
+   64  git remote add origin https://github.com/madanjha/openshiftlearning.git
+   65  git push origin main
+   66  git checkout openshiftlearning
+   67  git checkout learning
+   68  git commit -m "Learning Git"
+   69  git add
+   70  git add Code.txt Output.txt
+   71  git push
+   72  git push --set-upstream origin main
+   73  git config --global --edit
+   74  git clone git@github.com:madanjha/git-practce01
+   75  git push -u origin main
+   76  git push
+   77  git push origin main
+   78  git push origin master
+   79   git remote -v
+   80  git remote remove "$ git clone https://github.com/madanjha/git-practce01.git"
+   81  git remote remove "$git clone https://github.com/madanjha/git-practce01.git"
+   82  git remote remove $ git clone https://github.com/madanjha/git-practce01.git
+   83  git remote remove "$ git clone https://github.com/madanjha/git-practce01.git"
+   84  git init
+   85  dir
+   86  pwd
+   87  cd OneDrive
+   88  cd Desktop
+   89  cd gittest
+   90  git add Code.txt Output.txt
+   91  git status
+   92  git commit -m "Fist commit"
+   93  git log
+   94  git remote add origin https://github.com/madanjha/openshiftlearning.git
+   95  $ git remote -v
+   96  git remote -v
+   97  git remote remove origin $ git clone https://github.com/madanjha/git-practce01.git
+   98  git remote remove origin "$ git clone https://github.com/madanjha/git-practce01.git"
+   99  git remote remove origin "https://github.com/madanjha/git-practce01.git"
+  100  git remote remove origin "$ git clone https://github.com/madanjha/git-practce01.git"
+  101  git remote -v
+  102  git remote remove origin
+  103  git remote remove origin
+  104  git remote -v
+  105  git remote add origin https://github.com/madanjha/openshiftlearning.git
+  106  git status
+  107  git push -u origin main
+  108  git remote -v
+  109  git remove -v origin
+  110  git remote -v
+  111  git remote remove origin
+  112  git remote add origin https://github.com/madanjha/git-practce01.git
+  113  git remote -v
+  114  git push -u origin main
+  115  touch feature1.txt feature2.txt
+  116  git add feature1.txt feature2.txt
+  117  git status
+  118  git commit  -m"second commit"
+  119  git log
+  120  git branch develop
+  121  git branch feature1.txt
+  122  git branch feature2.txt
+  123  git branch
+  124  git checkout develop
+  125  touch develop.txt
+  126  git stash push -m"stashed develop.txt"
+  127  git checkout feature1
+  128  git checkout feature1.txt
+  129  touch new.txt
+  130  git add new.txt
+  131  git commit -m"added new.txt in feature1.txt"
+  132  git log
+  133  git checkout develop
+  134  git stash pop
+  135  git status
+  136  git add develop.txt
+  137  git commit -m"added develop.txt to develop"
+  138  git log
+  139  history
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (develop)
+$
+
+
+git branch -d feature1
+
+git push origin --delete <branch name>
+
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (private)
+$ history
+    1  pwd
+    2  cd C
+    3  cd C:
+    4  cd Desktop
+    5  cd C:\Users\madan\OneDrive\Desktop
+    6  cd C:\Users\madan
+    7  cd User
+    8  dir
+    9  cd Users
+   10  dir
+   11  cd madan
+   12  dir
+   13  cd OneDrive
+   14  dir
+   15  cd Desktop
+   16  pwd
+   17  mkdir Gittest
+   18  cd Gittest/
+   19  touch Code.txt
+   20  touch Log.txt
+   21  touch Output.txt
+   22  git init
+   23  git add Code.txt Output.txt
+   24  git status
+   25  git commit -m"lst commit"
+   26  git remote add origin "$ git clone https://github.com/madanjha/git-practce01.git"
+   27  git push origin master
+   28  git push origin master
+   29  git push -u origin main
+   30  git push -u origin master
+   31  git remote add origin git@github.com:madanjha/git-practce01.git
+   32  git branch -M master
+   33  git push -u origin master
+   34  git config --global madanjha
+   35  git config --global madanjha "Madan Jha"
+   36  git remote add origin https://github.com/madanjha/git-practce01.git
+   37  show status
+   38  git status
+   39  git remote remove "$ git clone https://github.com/madanjha/git-practce01.git"
+   40  git remote remove "https://github.com/madanjha/git-practce01.git"
+   41  git remote remove https://github.com/madanjha/git-practce01.git
+   42  git remote add origin https://github.com/madanjha/git-practce01.git
+   43  exit
+   44  git config --global madanjha
+   45  git config --global --edit
+   46  pwd
+   47  cd Gittest
+   48  pwd
+   49  cd OneDrive/Desktop
+   50  cd gittest/
+   51  dir
+   52  git add Code.txt Output.txt
+   53  git status
+   54  git init
+   55  git remote add origin https://github.com/madanjha/git-practce01.git
+   56  git remote add origin https://github.com/madanjha/git-practce01.git
+   57  git branch -M main
+   58  git push -u origin main
+   59  git clone
+   60  git push -u origin main
+   61  git clone git@github.com:madanjha/git-practce01.git
+   62  git push -u origin main
+   63  git push origin main
+   64  git remote add origin https://github.com/madanjha/openshiftlearning.git
+   65  git push origin main
+   66  git checkout openshiftlearning
+   67  git checkout learning
+   68  git commit -m "Learning Git"
+   69  git add
+   70  git add Code.txt Output.txt
+   71  git push
+   72  git push --set-upstream origin main
+   73  git config --global --edit
+   74  git clone git@github.com:madanjha/git-practce01
+   75  git push -u origin main
+   76  git push
+   77  git push origin main
+   78  git push origin master
+   79   git remote -v
+   80  git remote remove "$ git clone https://github.com/madanjha/git-practce01.git"
+   81  git remote remove "$git clone https://github.com/madanjha/git-practce01.git"
+   82  git remote remove $ git clone https://github.com/madanjha/git-practce01.git
+   83  git remote remove "$ git clone https://github.com/madanjha/git-practce01.git"
+   84  git init
+   85  dir
+   86  pwd
+   87  cd OneDrive
+   88  cd Desktop
+   89  cd gittest
+   90  git add Code.txt Output.txt
+   91  git status
+   92  git commit -m "Fist commit"
+   93  git log
+   94  git remote add origin https://github.com/madanjha/openshiftlearning.git
+   95  $ git remote -v
+   96  git remote -v
+   97  git remote remove origin $ git clone https://github.com/madanjha/git-practce01.git
+   98  git remote remove origin "$ git clone https://github.com/madanjha/git-practce01.git"
+   99  git remote remove origin "https://github.com/madanjha/git-practce01.git"
+  100  git remote remove origin "$ git clone https://github.com/madanjha/git-practce01.git"
+  101  git remote -v
+  102  git remote remove origin
+  103  git remote remove origin
+  104  git remote -v
+  105  git remote add origin https://github.com/madanjha/openshiftlearning.git
+  106  git status
+  107  git push -u origin main
+  108  git remote -v
+  109  git remove -v origin
+  110  git remote -v
+  111  git remote remove origin
+  112  git remote add origin https://github.com/madanjha/git-practce01.git
+  113  git remote -v
+  114  git push -u origin main
+  115  touch feature1.txt feature2.txt
+  116  git add feature1.txt feature2.txt
+  117  git status
+  118  git commit  -m"second commit"
+  119  git log
+  120  git branch develop
+  121  git branch feature1.txt
+  122  git branch feature2.txt
+  123  git branch
+  124  git checkout develop
+  125  touch develop.txt
+  126  git stash push -m"stashed develop.txt"
+  127  git checkout feature1
+  128  git checkout feature1.txt
+  129  touch new.txt
+  130  git add new.txt
+  131  git commit -m"added new.txt in feature1.txt"
+  132  git log
+  133  git checkout develop
+  134  git stash pop
+  135  git status
+  136  git add develop.txt
+  137  git commit -m"added develop.txt to develop"
+  138  git log
+  139  history
+  140  git origin push develop
+  141  git push origin develop
+  142  git branch
+  143  git log
+  144  git branch
+  145  git checkout feature1.txt
+  146  git push origin feature1.txt
+  147  git branch -d feature1.txt
+  148  git branch --delete feature1.txt
+  149  branch main
+  150  branch master
+  151  branch main
+  152  git branch main
+  153  git branch master
+  154  git branch
+  155  git checkout master
+  156  touch master.txt
+  157  git add master.txt
+  158  git status
+  159  git commit -m"master.txt in master"
+  160  git push origin master
+  161  git branch public1
+  162  git branch public2
+  163  git branch private
+  164  git checkout public1
+  165  touch public1.txt
+  166  git checkout master
+  167  git merge bublic1
+  168  log
+  169  git log
+  170  git branch
+  171  git checkout public1
+  172  git add public1.txt
+  173  git commit -m"commit public1.txt to public1"
+  174  git checkout master
+  175  git merge public1
+  176  git checkout master
+  177  git merge public2
+  178  git checkout private
+  179  echo "update by private branch" >> master.txt
+  180  git add master.txt
+  181  git commit -m"master.txt"
+  182  git checkout public1
+  183  git merge private
+  184  git checkout public2
+  185  git merge private
+  186  git checkout master
+  187  git merge private
+  188  git checkout private
+  189  git push private
+  190  git push origin private
+  191  history
+
+madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (private)
+$

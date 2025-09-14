@@ -4,77 +4,6 @@ Initialized empty Git repository in C:/Users/madan/.git/
 
 madan@Lenovo-PC MINGW64 ~ (master)
 $ dir
-3D\ Objects
-AppData
-Application\ Data
-Contacts
-Cookies
-Covid19.ipynb
-DataVisualliation
-Documents
-Downloads
-EPGA-practices
-Favorites
-HackerRank_test.ipynb
-IntelGraphicsProfiles
-Links
-Local\ Settings
-Microsoft
-Music
-My\ Documents
-NTUSER.DAT
-NTUSER.DAT{c28ced5f-a084-11eb-82e3-be62c97d2043}.TM.blf
-NTUSER.DAT{c28ced5f-a084-11eb-82e3-be62c97d2043}.TMContainer00000000000000000001.regtrans-ms
-NTUSER.DAT{c28ced5f-a084-11eb-82e3-be62c97d2043}.TMContainer00000000000000000002.regtrans-ms
-NetHood
-Numpy\ (1).ipynb
-Numpy.ipynb
-OOPSAsingement.ipynb
-OneDrive
-OneDrive.old
-Pandas\ Practical
-Postman
-PrintHood
-Recent
-Roaming
-Saved\ Games
-Searches
-SendTo
-Start\ Menu
-StatsProbality
-Templates
-Tracing
-Untitled.ipynb
-Untitled1.ipynb
-Untitled10.ipynb
-Untitled11.ipynb
-Untitled2.ipynb
-Untitled21.ipynb
-Untitled3.ipynb
-Untitled4.ipynb
-Untitled5.ipynb
-Untitled6.ipynb
-Untitled7.ipynb
-Untitled8.ipynb
-Untitled9.ipynb
-Videos
-VirtualBox\ VMs
-WebstormProjects
-anaconda3
-covid_19_clean_complete.csv
-default-soapui-workspace.xml
-git
-hob
-hsperfdata_madan
-my-app
-ntuser.dat.LOG1
-ntuser.dat.LOG2
-ntuser.ini
-package-lock.json
-soapui-settings.xml
-untitled.py
-untitled1.py
-
 madan@Lenovo-PC MINGW64 ~ (master)
 $ pwd
 /c/Users/madan
@@ -743,3 +672,4 @@ $ history
 
 madan@Lenovo-PC MINGW64 ~/OneDrive/Desktop/gittest (private)
 $
+
